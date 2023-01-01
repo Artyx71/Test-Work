@@ -201,3 +201,7 @@ li {
 .swiper-button-prev:after {
   color: #fff;
 }
+
+.swiper-scrollbar-drag {
+  background: #fff;
+}
