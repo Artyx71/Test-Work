@@ -1,12 +1,6 @@
 @font-face {
   font-family: "Gilroy";
   src: url(assets/fonts/Gilroy/Gilroy-Regular.ttf);
-  src: url(assets/fonts/Gilroy/Gilroy-Semibold.ttf);
-  src: url(assets/fonts/Gilroy/Gilroy-Thin.ttf);
-  src: url(assets/fonts/Gilroy/Gilroy-Bold.ttf);
-  src: url(assets/fonts/Gilroy/Gilroy-Light.ttf);
-  src: url(assets/fonts/Gilroy/Gilroy-Medium.ttf);
-  src: url(assets/fonts/Gilroy/Gilroy-UltraLight.ttf);
 }
 
 * {
@@ -22,6 +16,7 @@ a {
 body {
   font-family: "Gilroy";
   background-color: #faf8f5;
+  color: #192040;
 }
 
 li {
@@ -144,6 +139,7 @@ li {
 .main {
   padding-top: 30px;
   background: #faf8f5;
+  margin-bottom: 80px;
 }
 
 .swiper {
@@ -203,5 +199,77 @@ li {
 }
 
 .swiper-scrollbar-drag {
-  background: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+.swiper-scrollbar-horizontal {
+  background-color: #fff;
+  width: 35% !important;
+  left: 30% !important;
+}
+.about {
+  margin-bottom: 120px;
+}
+
+.about__inner {
+  display: flex;
+  gap: 130px;
+}
+
+.about__inner-left {
+  flex-basis: 670px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.about__inner-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-basis: 830px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.about__inner-right a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  text-decoration-line: underline;
+  color: inherit;
+}
+
+.cards {
+  margin-bottom: 120px;
+}
+
+.cards__inner {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 10px;
+}
+
+.cards-item {
+  display: flex;
+  flex-basis: 350px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 40px 40px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.cards-item img {
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.cards-item h3 {
+  margin-bottom: 10px;
+  max-width: 270px;
+}
+.cards-item p {
+  max-width: 270px;
+  color: #828299;
 }
