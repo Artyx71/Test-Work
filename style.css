@@ -308,6 +308,7 @@ li {
   max-width: 350px;
   border: 2px solid #ffffff;
   border-radius: 30px;
+  background: #fff;
 }
 
 .services-cards img {
