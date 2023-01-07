@@ -505,20 +505,19 @@ li {
 }
 
 .products__card-middle:hover {
-  background: #faf8f5;
   border-bottom: 2px solid #ffffff;
   transition: 0.9s;
 }
 
 .products__card-middle:hover + .products__card-bot {
   display: flex;
-  background: #faf8f5;
+
   padding: 20px 30px;
 }
 
 .products__card-bot:hover {
   display: flex;
-  background: #faf8f5;
+
   padding: 20px 30px;
 }
 
