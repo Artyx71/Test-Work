@@ -42,6 +42,9 @@ li {
   align-items: center;
 }
 
+.logo-small {
+  display: none;
+}
 .header__left {
 }
 
@@ -906,4 +909,144 @@ li {
 
 .info-block img {
   margin-right: 16px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    padding: 0px 20px;
+  }
+  .container {
+    max-width: 375px;
+  }
+  .header__inner form {
+    display: none;
+  }
+  .header__inner .header__right-links {
+    display: none;
+  }
+
+  .header__inner .header__right-social {
+    display: none;
+  }
+
+  .header__right-bot {
+    display: none;
+  }
+  .responsive-links {
+    display: flex;
+    gap: 10px;
+  }
+  .logo-small {
+    display: block;
+  }
+  .logo-large {
+    display: none;
+  }
+  .header__right-top {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: none;
+  }
+  .header__inner {
+    gap: 100px;
+    padding: 10px;
+  }
+  .header {
+    border-bottom: 2px solid #ededf2;
+  }
+  .swiper {
+    width: 335px;
+  }
+  .swiper-slide {
+    padding: 40px 30px;
+  }
+  .swiper-slide h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+  .swiper-slide p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    max-width: 274px;
+    margin-bottom: 30px;
+  }
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .about {
+    display: none;
+  }
+  .cards__inner {
+    flex-direction: column;
+  }
+  .cards-item img {
+    width: 96px;
+    margin-bottom: 30px;
+  }
+  .cards-item {
+    max-width: 335px;
+  }
+  .cards-item p {
+  }
+
+  .services__inner {
+    overflow-x: scroll;
+  }
+  .products__card-wrapper {
+    gap: 10px;
+  }
+  .products__inner {
+    overflow-x: scroll;
+  }
+  .places {
+    display: none;
+  }
+  .bunny {
+    display: none;
+  }
+  .graffity {
+    display: none;
+  }
+  .request p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .request__inner {
+    padding: 30px;
+  }
+  .requests-top p {
+    margin-bottom: 20px;
+    max-width: 275px;
+  }
+  .requests-bot form {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .requests-bot input {
+    width: 275px;
+  }
+  .requests-submit {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .requests-submit p {
+    text-align: center;
+  }
+
+  .blog__inner {
+    overflow-x: scroll;
+  }
+  .blog__card-wrapper {
+    gap: 10px;
+  }
 }
