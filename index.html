@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Steno Print</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/imask"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
@@ -24,11 +25,11 @@
                 </form>
                 <div class="header__right-links">
                   <p>Позвонить нам:</p>
-                  <a>+7 (555) 888-98-66</a>
+                  <a href="tel:+75558889866">+7 (555) 888-98-66</a>
                 </div>
                 <div class="header__right-links small">
                   <p>Написать нам:</p>
-                  <a>info@stenoprint.ru</a>
+                  <a href="mailto:info@stenoprint.ru">info@stenoprint.ru</a>  
                 </div>
                 <div class="header__right-social">
                   <a href=""><img src="assets/img/inst.svg" alt="" /></a>
@@ -347,7 +348,7 @@
               </div>
               <div class="form-right">
                 <p>Номер телефона:</p>
-                <input type="text" placeholder="+7 (___) ___-__-__">
+                <input id="phone-mask" type="text" placeholder="+7 (___) ___-__-__">
               </div>
             </form>
           </div>
