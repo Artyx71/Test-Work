@@ -1049,4 +1049,15 @@ li {
   .blog__card-wrapper {
     gap: 10px;
   }
+  .footer__inner {
+    flex-direction: column;
+  }
+
+  .catalog ul {
+    margin-bottom: 40px;
+  }
+
+  .attendance ul {
+    margin-bottom: 40px;
+  }
 }
